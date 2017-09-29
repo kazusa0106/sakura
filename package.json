@@ -1,0 +1,26 @@
+{
+  "name": "sakura",
+  "version": "1.0.0",
+  "description": "获取樱前线历史数据",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazusa0106/sakura.git"
+  },
+  "author": "kazusa0106",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kazusa0106/sakura/issues"
+  },
+  "homepage": "https://github.com/kazusa0106/sakura#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.0",
+    "node-xlsx": "^0.11.0",
+    "request": "^2.83.0"
+  }
+}
