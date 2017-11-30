@@ -62,10 +62,6 @@ function getData(url, year) {
                     }
                 });
             });
-<<<<<<< HEAD
-=======
-            console.log(res);
->>>>>>> 1a98eec52dab70a3060c1517ca919e84f90dc7ff
             const buffer = xlsx.build([
                 {
                     name: 'sheet1',
